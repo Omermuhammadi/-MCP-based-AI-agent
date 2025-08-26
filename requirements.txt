@@ -1,0 +1,34 @@
+# Core MCP and Agent Dependencies
+mcp[cli]>=1.13.1
+fastmcp>=0.9.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+langchain-groq>=0.2.0
+langchain-mcp-adapters>=0.1.0
+langgraph>=0.2.0
+
+# Vector Store and Embeddings
+faiss-cpu>=1.8.0
+PyPDF2>=3.0.1
+
+# Data Processing and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+datasets>=2.14.0
+
+# Utilities
+python-dotenv>=1.0.0
+sympy>=1.12.0
+requests>=2.31.0
+
+# UI and Web Framework
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Development Tools
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
